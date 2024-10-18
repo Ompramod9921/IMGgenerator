@@ -2,8 +2,10 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 
-# Title for the Streamlit app
-st.title("Image Creator")
+st.markdown(
+    "<h1 style='text-align: center;'>Image Creator</h1>",
+    unsafe_allow_html=True
+)
 
 # Embedding the iframe
 components.html(
