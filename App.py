@@ -9,10 +9,11 @@ st.markdown(
 
 # Embedding the iframe
 components.html(
-    """
     <iframe
         src="https://vismaya2939-texttoimage.hf.space"
-    ></iframe>
-    """,
+        frameborder="0"
+        width="850"
+        height="450"
+    ></iframe>,
     height=800,  # Set the height of the iframe container
 )
