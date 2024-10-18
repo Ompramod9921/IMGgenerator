@@ -1,6 +1,10 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+
+# Title for the Streamlit app
+st.title("Image Creator")
+
 # Embedding the iframe
 components.html(
     """
